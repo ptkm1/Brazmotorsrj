@@ -13,7 +13,6 @@ export default function Index() {
      
 
       video.addEventListener('ended', () => {
-        alert('acabou')
        Router.push('/home')
       })
     }
