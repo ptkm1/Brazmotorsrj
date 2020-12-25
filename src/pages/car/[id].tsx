@@ -83,6 +83,10 @@ export default function Car({ carro }) {
         alert(error)
       })
   }
+    
+   const { isFallback } = useRouter()
+
+  if (isFallback) { return <h1>carregando...</h1> }
 
   return (
     <>
