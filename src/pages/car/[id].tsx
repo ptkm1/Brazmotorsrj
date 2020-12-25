@@ -48,7 +48,7 @@ export const getStaticPaths: GetStaticPaths  = async () => {
    }
  }
 
-export default function Index({ carro }) {
+export default function Car({ carro }) {
 
   const [ Nome, setNome ] = useState()
   const [ Email, setEmail ] = useState()
