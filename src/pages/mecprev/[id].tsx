@@ -75,7 +75,10 @@ export default function Preventiva({ preventiva }) {
         alert(error.response)
       })
   }
+  const { isFallback } = useRouter()
 
+  if (isFallback) { return <h1>carregando...</h1> }
+  
   return (
     <>
       <Head>
