@@ -75,6 +75,10 @@ export default function Especializada({ especializada }) {
         alert(error.response)
       })
   }
+  
+  const { isFallback } = useRouter()
+
+  if (isFallback) { return <h1>carregando...</h1> }
 
   return (
     <>
