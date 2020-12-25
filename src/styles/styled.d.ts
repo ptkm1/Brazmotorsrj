@@ -15,5 +15,6 @@ declare module 'react' {
     uri?: string;
     width?: string;
     height?: string;
+    frameborder?: string;
   }
 }
