@@ -40,8 +40,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   }
 }
 
-export default function Especializada({ estetica }) {
-  console.log(estetica)
+export default function Estetica({ estetica }) {
   const [Nome, setNome] = useState()
   const [Email, setEmail] = useState()
   const [Tel, setTel] = useState()
