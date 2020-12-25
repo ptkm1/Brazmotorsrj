@@ -21,6 +21,9 @@ export const Header = styled.div`
   flex-direction: column;
   padding-top: 65px;
   
+  img{
+    object-fit: cover;
+  }
 `;
 // MAIN PART
 export const FirstSection = styled.div`
@@ -54,6 +57,7 @@ export const SecondSection = styled.div`
   grid-gap: 40px;
   align-content: center;
   justify-items: center;
+  justify-content: center;
   @media (max-width: 700px){
     display: flex;
     flex-direction: column;

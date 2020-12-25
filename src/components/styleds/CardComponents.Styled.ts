@@ -12,6 +12,7 @@ export const CardContainerHome = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
+  justify-items: center;
 `
 export const CardsInfoBot = styled.div`
   width: 50.33%;
@@ -51,21 +52,21 @@ export const CardImage = styled.div`
   background-size: cover;
   background-position: center;
   cursor: pointer;
-
-
-  :hover{
-        border: solid #ff5555;
-        transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
-    }
 `;
 
 export const Card = styled.div`
   background-color: #fff;
-  width: 500px;
+  width: 70%;
   height: 280px;
   padding: 15px;
   border-radius: 9px;
   cursor: pointer;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: all 0.25s;
+
+  @media (max-width: 700px){
+    width: 100%;
+  }
 
   display: flex;
   justify-content: space-around;
@@ -74,6 +75,7 @@ export const Card = styled.div`
   h4{
     color: #282A36;
     font-size: 37px;
+    line-height: 1.5;
   }
   h5{
     font-size: 20px;
@@ -84,9 +86,10 @@ export const Card = styled.div`
     font-size: 20px;
   }
 
-  :hover ${CardImage}{
-    border: #bf3f3f solid;
-    transition: 0.3s;
+  :hover{
+    transform: perspective(700px)
+		translate(0px,-5px);
+	  transform-origin: center 37%;
   }
 `;
 

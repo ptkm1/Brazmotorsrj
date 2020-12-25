@@ -81,7 +81,7 @@ export default function Home({carro}) {
        
         <FirstSection>
           <h1 style={{marginTop:"50px", fontSize: '1.9rem'}} >Nossos carros</h1>
-          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid red", color: "red", marginBottom: "20px" }}></hr>
+          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #ff5555", color: "#ff5555", marginBottom: "20px" }}></hr>
         </FirstSection>
         <SecondSection>
             {carro.map(
@@ -106,7 +106,7 @@ export default function Home({carro}) {
         </SecondSection>
 
           <h1 style={{marginTop:"250px", fontSize: '1.9rem'}} >Compre já!</h1>
-          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid red", color: "red" }}></hr>
+          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #ff5555", color: "#ff5555" }}></hr>
           <CardContainerHome>
             <CardsInfoBot>
                 <span><IoCarSport /></span>
@@ -126,7 +126,7 @@ export default function Home({carro}) {
           </CardContainerHome>
 
           <h1 style={{marginTop:"150px", fontSize: '1.9rem'}} >Visite-nos</h1>
-          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid red", color: "red" }}></hr>
+          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #ff5555", color: "#ff5555", marginBottom: "70px" }}></hr>
           <div style={{marginBottom: "180px" , width: '100%', display: 'flex', justifyContent: 'center'}}>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.52960198539!2d-43.35190028487018!3d-23.004319047142356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdbff1c22675f%3A0x1f6ef7a0bc3b8a3a!2sBRAZMOTORSRJ!5e0!3m2!1spt-BR!2sbr!4v1608662047679!5m2!1spt-BR!2sbr" width="90%" height="600px" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>

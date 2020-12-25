@@ -22,6 +22,7 @@ export default createGlobalStyle`
     background-color: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
     font: 400 16px 'Product sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
 
 `

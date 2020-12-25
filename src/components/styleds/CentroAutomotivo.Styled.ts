@@ -41,4 +41,20 @@ export const Card = styled.div`
     font-size: 18px;
     line-height: 27px;
   }
+  transition: all 0.9s;
+  :hover{
+    transform: perspective(700px)
+		translate(0px,-8px);
+	  transform-origin: center 37%;
+  }
+`;
+
+export const VectorLocal = styled.div`
+  width: max-content;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  img{
+    width: 250px;
+  }
 `;
