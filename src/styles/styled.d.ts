@@ -16,5 +16,7 @@ declare module 'react' {
     width?: string;
     height?: string;
     frameborder?: string;
+    allowfullscreen?: string;
+    tabindex?: string;
   }
 }
