@@ -37,9 +37,7 @@ export const getStaticPaths: GetStaticPaths  = async () => {
    }
  }
 
-export default function SimpleSlider({carro: any}){
-
-  console.log(carro)
+export default function SimpleSlider({carro}){
 
 
     const settings = {
