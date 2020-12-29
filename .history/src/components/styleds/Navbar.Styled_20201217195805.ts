@@ -42,7 +42,7 @@ export const OptionsNavbar = styled.ul`
     transition: 0.3s;
   }
   a:hover {
-    color: #ff5555;
+    color: #e63946;
   }
   @media(max-width: 500px){
     display: none;

@@ -29,11 +29,11 @@ export const FirstSection = styled.div`
   h1 {
     font-size: 2.8rem;
     font-weight: 700;
-    color: #FF5555;
+    color: #e63946;
   }
   h2 {
     color: #282a36;
-    border-bottom: solid #ff5555 4px;
+    border-bottom: solid #e63946 4px;
     margin-top: 25px;
     font-size: 1.5rem;
     font-weight: 500;
@@ -144,6 +144,6 @@ export const CardInfoHome = styled.div`
 export const IconInfo = styled.div`
   width: 65px;
   height: 65px;
-  background-color: #FF5555;
+  background-color: #e63946;
   border-radius: 9px;
 `

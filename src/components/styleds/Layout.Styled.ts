@@ -9,7 +9,7 @@ export const Container = styled.div`
   h1 {
     font-size: 2.8rem;
     font-weight: 700;
-    color: #FF5555;
+    color: #e63946;
   }
 
 `;
@@ -48,11 +48,11 @@ export const FirstSection = styled.div`
   h1 {
     font-size: 2.8rem;
     font-weight: 700;
-    color: #FF5555;
+    color: #e63946;
   }
   h2 {
     color: #282a36;
-    border-bottom: solid #ff5555 4px;
+    border-bottom: solid #e63946 4px;
     margin-top: 25px;
     font-size: 1.5rem;
     font-weight: 500;
@@ -63,7 +63,7 @@ export const SecondSection = styled.div`
   width: 80%;
   height: max-content;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
   align-content: center;
   justify-items: center;
@@ -71,6 +71,10 @@ export const SecondSection = styled.div`
   @media (max-width: 700px){
     display: flex;
     flex-direction: column;
+  }
+  @media (max-width: 450px){
+    width: 100%;
+    align-items: center;
   }
 `;
 
@@ -165,6 +169,6 @@ export const CardInfoHome = styled.div`
 export const IconInfo = styled.div`
   width: 35px;
   height: 35px;
-  background-color: #FF5555;
+  background-color: #e63946;
   border-radius: 9px;
 `

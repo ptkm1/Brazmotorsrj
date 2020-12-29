@@ -37,7 +37,7 @@ export const ItemsTop = styled.div`
   width: 100%;
   height: max-content;
   padding: 70px 100px;
-  background-color: #FF5555;
+  background-color: #e63946;
 
   display: flex;
   flex-direction: row;
@@ -61,7 +61,7 @@ export const ItemsMid = styled.div`
   } 
 
   h2{
-      color: #FF5555;
+      color: #e63946;
       font-size: 40px;
       margin: 2px;
   }
@@ -78,7 +78,7 @@ export const ItemsBot = styled.div`
   align-items: center;
 
   p{
-      color: #FF5555;
+      color: #e63946;
       font-size: 15px;
   }
 `

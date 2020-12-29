@@ -110,7 +110,7 @@ export default function Home({carro}) {
           )}
         </SecondSection>
         <CentralizeText>
-          <h1 style={{ borderBottom: "solid 3px #ff5555", paddingBottom: 15 }}>
+          <h1 style={{ borderBottom: "solid 3px #e63946", paddingBottom: 15 }}>
             Por quê nós?
           </h1>
 

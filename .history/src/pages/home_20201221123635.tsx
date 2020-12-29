@@ -89,7 +89,7 @@ export default function Home({carro}) {
         </CardsContainerHome>
         <FirstSection>
           <h1>Nossos </h1>
-          <h2 style={{ borderBottom: "solid 3px #ff5555", paddingBottom: 15 }}>
+          <h2 style={{ borderBottom: "solid 3px #e63946", paddingBottom: 15 }}>
             CARROS INCRÍVEIS COM PREÇOS IMPERDÍVEIS
           </h2>
         </FirstSection>
@@ -107,7 +107,7 @@ export default function Home({carro}) {
           )}
         </SecondSection>
         <CentralizeText>
-          <h1 style={{ borderBottom: "solid 3px #ff5555", paddingBottom: 15 }}>
+          <h1 style={{ borderBottom: "solid 3px #e63946", paddingBottom: 15 }}>
             Por quê nós?
           </h1>
 

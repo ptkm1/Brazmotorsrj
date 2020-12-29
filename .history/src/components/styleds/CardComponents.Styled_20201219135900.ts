@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
-  background-color: #ff5555;
+  background-color: #e63946;
   width: 300px;
   height: 400px;
   border-radius: 4px;
@@ -20,7 +20,7 @@ export const CardImage = styled.div`
   background-image: url(${prop => prop.uri || "https://media.istockphoto.com/vectors/car-flat-icon-vector-id1144092062?b=1&k=6&m=1144092062&s=612x612&w=0&h=zMH-_u3shpUjbCFQiewi6AhSItMmtI-MMVsayqeHRpc="});
   background-repeat: no-repeat;
   background-size: cover;
-  border: solid #ff5555;
+  border: solid #e63946;
   cursor: pointer;
   :hover{
     border: #bf3f3f solid;

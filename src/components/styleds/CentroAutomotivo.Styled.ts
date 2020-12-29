@@ -17,6 +17,15 @@ export const Cards = styled.div`
   display: grid;
   grid-gap: 1.1rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  @media (max-width: 700px){
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+  }
+
+  @media (max-width: 425px){
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Card = styled.div`
@@ -34,7 +43,7 @@ export const Card = styled.div`
   padding: 5px;
 
   h3{
-    color: #FF5555;
+    color: #e63946;
     font-family: Product Sans;
     font-style: normal;
     font-weight: bold;
@@ -42,9 +51,10 @@ export const Card = styled.div`
     line-height: 27px;
   }
   transition: all 0.9s;
+
   :hover{
     transform: perspective(700px)
-		translate(0px,-8px);
+		translate(0px,-5px);
 	  transform-origin: center 37%;
   }
 `;

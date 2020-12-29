@@ -61,7 +61,7 @@ export const ItemsMid = styled.div`
   } 
 
   h2{
-      color: #FF5555;
+      color: #e63946;
       font-size: 40px;
       margin: 2px;
   }
@@ -78,7 +78,7 @@ export const ItemsBot = styled.div`
   align-items: center;
 
   p{
-      color: #FF5555;
+      color: #e63946;
       font-size: 15px;
   }
 `

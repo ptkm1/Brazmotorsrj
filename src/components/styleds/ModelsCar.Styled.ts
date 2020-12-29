@@ -9,7 +9,7 @@ export const CarModels = styled.div`
 `;
 
 export const FilterPart = styled.div`
-  background: white;
+
   color: black;
   width: 30%;
   height: 100vh;
@@ -25,14 +25,13 @@ export const FilterPart = styled.div`
 `;
 
 export const CarsComponents = styled.div`
-  background: white;
   color: black;
   width: 70%;
-  height: 100vh;
+
   padding: 15px;
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
   @media (max-width: 700px){
     display: flex;

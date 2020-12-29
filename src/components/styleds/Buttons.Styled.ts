@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const ButtonBlack = styled.button`
   width: ${prop => prop.width || "90%"};
   height: ${prop => prop.height || "50px"};
-  background: #ff5555;
-  border: 1px solid #ff5555;
+  background: #e63946;
+  border: 1px solid #e63946;
   box-sizing: border-box;
   margin-top: 15px;
   cursor: pointer;
@@ -12,7 +12,7 @@ export const ButtonBlack = styled.button`
 
   :hover{
     background: white;
-    color: #ff5555;
+    color: #e63946;
     transition: 0.5s;
   }
 `;

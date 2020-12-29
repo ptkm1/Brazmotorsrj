@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-   width: 100%;
-    height: 100vh;
-    padding-top: 75px;
+    width: 100%;
     background: #f6f7fb;
 
     display: flex;
@@ -14,8 +12,6 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     width: 80%;
-    height: 100%;
-    margin-top: 260px;
     margin-bottom: 100px;
     
     display: flex;
@@ -25,13 +21,17 @@ export const Content = styled.div`
 export const UpSide = styled.div`
     width: 100%;
     height: 100%;
-    margin-top: 160px;
+    margin-top: 100px;
 
     display: flex;
     flex-direction: row;
 
     @media (max-width: 700px){
         flex-direction: column;
+    }
+    @media (max-width: 450px){
+        width: 100%;
+        margin-top: 60px;
     }
 `;
 
@@ -59,6 +59,10 @@ export const Left = styled.div`
       }
     }
 
+    @media (max-width: 450px){
+        width: 100%;
+    }
+
     
 `;
 
@@ -78,6 +82,10 @@ export const Right = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+
+    @media (max-width: 450px){
+        width: 100%;
+    }
 `;
 
 export const LeftDown = styled.div`

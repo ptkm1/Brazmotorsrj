@@ -12,11 +12,12 @@ export const Container = styled.div`
 `;
 
 export const CardsContainer = styled.div`
-    width: 100%;
+    width: 95%;
 
     justify-items: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5%;

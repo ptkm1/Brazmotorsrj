@@ -104,14 +104,14 @@ export default function Car({ carro }) {
               {/* <SimpleSlider /> */}
               <img src={carro[0].imagem} />
               <LeftDown>
-              <h1 style={{color:"#FF5555", fontSize: "1.6rem"}}>{carro[0].nome}</h1>
+              <h1 style={{color:"#e63946", fontSize: "1.6rem"}}>{carro[0].nome}</h1>
               <h1>Descrição:</h1>
               <p>{carro[0].descricao}</p>
             </LeftDown>
             </Left>
             <Right>
               <h1 style={{ 
-                color: "#FF5555"
+                color: "#e63946"
               }} >
                 Demonstre interesse 
               </h1>

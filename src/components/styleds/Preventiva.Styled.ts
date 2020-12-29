@@ -14,7 +14,7 @@ export const  Container = styled.div`
   h2{
     margin-top: 80px;
     font-size: 30px;
-    color: #FF5555;
+    color: #e63946;
   }
 `
 
@@ -46,7 +46,7 @@ export const ContainerForms = styled.div`
   height: 600px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #FF5555;
+  background-color: #e63946;
   text-align: center;
 
   display: flex;
@@ -59,7 +59,7 @@ export const CardHover = styled.div`
   width: 480px;
   height: 400px;
   color: #fff;
-  background-color: #FF5555;
+  background-color: #e63946;
   position: absolute;
   z-index: 10;
   padding: 20px;
@@ -92,7 +92,7 @@ export const PrecoHover = styled.div`
 export const Card = styled.div`
   width: 480px;
   height: 400px;
-  background: #FF5555;
+  background: #e63946;
   cursor: pointer;
   transition: 0.3s;
 

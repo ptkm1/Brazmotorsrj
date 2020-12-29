@@ -58,16 +58,16 @@ export default function Showroom({marca}): JSX.Element {
         <Container>
           <WhatsApp />
 
-          <h1 style={{fontSize: '1.9rem', color: "#FF5555",marginTop: "60px"}} >Marcas</h1>
-          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #FF5555", color: "#FF5555", marginBottom: "20px" }}></hr>
+          <h1 style={{fontSize: '1.9rem', color: "#e63946",marginTop: "60px"}} >Marcas</h1>
+          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #e63946", color: "#e63946", marginBottom: "20px" }}></hr>
           
             <CardsContainer>
 
               {marca.map((e) => (
-                      <Link href="./marcas/modelos/[id]" as={`./marcas/modelos/${e.id}`}>
-                          <CardImage uri={e.img} >
+                  <Link href="./marcas/modelos/[id]" as={`./marcas/modelos/${e.id}`}>
+                      <CardImage uri={e.img} >
                               
-                          </CardImage>
+                      </CardImage>
                   </Link>
               ))}
             </CardsContainer>

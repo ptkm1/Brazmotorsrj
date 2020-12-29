@@ -82,7 +82,7 @@ export const PrecoHover = styled.div`
 export const Card = styled.div`
   width: 480px;
   height: 400px;
-  background: #FF5555;
+  background: #e63946;
   cursor: pointer;
   transition: 0.3s;
 

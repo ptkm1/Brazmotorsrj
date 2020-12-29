@@ -16,7 +16,7 @@ export default function MenuComponent() {
     <NavBar>
       <div style={{display: 'flex', alignItems: 'center'}}>
         <img id="Logo" src={LogoNova} alt="logo" />
-        <h3 style={{marginLeft: 5, color: '#ff5555'}}>Brazmotors</h3>
+        <h3 style={{marginLeft: 5, color: '#e63946'}}>Brazmotors</h3>
       </div>
         <OptionsNavbar>
           <li>

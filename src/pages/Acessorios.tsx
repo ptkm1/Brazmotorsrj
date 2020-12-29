@@ -42,8 +42,8 @@ export default function Acessorios({acessorio}) {
             <h2>Acessórios automotivos:</h2>
             <hr style={{width:"100px",
              marginTop:"5px",
-             border:"2px solid #ff5555",
-             color:"#ff5555",
+             border:"2px solid #e63946",
+             color:"#e63946",
              marginBottom:"20px"}}></hr>
             <CardsContainer>
                 {acessorio.map((e) => (

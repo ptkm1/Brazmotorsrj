@@ -24,7 +24,7 @@ export const Card = styled.div`
   }
   h5{
     font-size: 20px;
-    color: #FF5555;
+    color: #e63946;
   }
   h6{
     color: #282A36;

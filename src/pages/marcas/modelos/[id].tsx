@@ -4,6 +4,8 @@ import { useRouter } from 'next/router'
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { Container, CardCarro, TodosOsCarros, CardCarroHover } from '../../../components/styleds/Modelos.Styled'
 import MenuComponent from "../../../components/MenuComponent";
+import Car from '../../car/[id]'
+import { Card, CardImage, CardInfo } from '../../../components/styleds/CardComponents.Styled'
 
 export default function Carros({ carros }) {
   console.log(carros)
@@ -17,8 +19,8 @@ export default function Carros({ carros }) {
       <MenuComponent />
     <Container>
          <div>
-          <h1 style={{marginTop:"150px", fontSize: '1.9rem', color: '#FF5555'}} >Carros</h1>
-          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #FF5555", color: '#FF5555', marginBottom: "20px" }}></hr>
+          <h1 style={{marginTop:"100px", fontSize: '1.9rem', color: '#e63946'}} >Carros</h1>
+          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #e63946", color: '#e63946', marginBottom: "20px" }}></hr>
         </div> 
 
       <TodosOsCarros>
@@ -27,14 +29,18 @@ export default function Carros({ carros }) {
           return (
             <>
               <Link href="/car/[id]" as={`/car/${e.id}`}>
-                <CardCarro key={e.id} style={{ backgroundImage: `url(${e.imagem})` }}>
-                  {/* <img src={e.imagem} alt="carro"/> */}
-
-                  <CardCarroHover>
-                    <h1>{e.nome}</h1>
-                    <h2>{e.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h2>
-                  </CardCarroHover>
-                </CardCarro>
+                <Card key={e.id}>
+                    <CardImage uri={e.imagem} />
+                    <CardInfo>   
+                        <h4>{e.nome}</h4>
+                        <h5>{e.marca}</h5>
+                        <div style={{display:"flex", width:"100%", justifyContent:"space-between"}}>  
+                          <h6>Ano: {e.ano}</h6> 
+                          <h6>{e.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h6> 
+                        </div>               
+                    </CardInfo>
+                  
+                  </Card>
               </Link>
             </>
           )

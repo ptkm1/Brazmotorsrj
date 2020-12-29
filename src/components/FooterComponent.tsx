@@ -45,7 +45,7 @@ export default function FooterComponent() {
         <a href="https://www.instagram.com/brazmotorsrj" target="_blank"  > <h2> <FiInstagram size="28px" /> </h2></a>
         <a href="https://www.facebook.com/brazmotorsrj" target="_blank"  > <h2> <AiOutlineFacebook size="28px"/> </h2></a>
       </div>
-      <hr style={{ width: "100%", border: "1px solid #FF5555"}}></hr>
+      <hr style={{ width: "100%", border: "1px solid #e63946"}}></hr>
     </ItemsMid>
     <ItemsBot>
       <p>© 2020 por Brazmotors.</p>

@@ -12,10 +12,11 @@ export const Container = styled.div`
 `;
 
 export const TodosOsCarros = styled.div`
-  width: 90%;
-  height: 100%;
+  width: 80%;
+  margin: 30px;
+  margin-bottom: 60px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
 

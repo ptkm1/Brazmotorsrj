@@ -18,7 +18,6 @@ export const Container = styled.div`
 export const Content = styled.div`
     width: 100%;
     margin-bottom: 100px;
-    
     display: flex;
     flex-direction: column;
 
@@ -99,7 +98,6 @@ export const Right = styled.div`
 export const LeftDown = styled.div`
     width: 100%;
     margin-top: 20px;
-  
 
     h1{
         font-size: 20px;

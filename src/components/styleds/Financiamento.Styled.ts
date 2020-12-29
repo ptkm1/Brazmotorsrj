@@ -46,7 +46,7 @@ export const BlocoForm = styled.div`
 export const LeftBlocoForm = styled.div`
     width: 100%;
     height: 100%;
-    background: #ff5555;
+    background: #e63946;
     display: flex;
     flex-direction: column;
     justify-content: center;

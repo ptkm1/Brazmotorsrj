@@ -35,7 +35,7 @@ export const FirstSection = styled.div`
   }
   h2 {
     color: #282a36;
-    border-bottom: solid #ff5555 4px;
+    border-bottom: solid #e63946 4px;
     margin-top: 25px;
     font-size: 1.5rem;
     font-weight: 500;

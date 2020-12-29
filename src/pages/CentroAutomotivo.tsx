@@ -18,6 +18,14 @@ function CentroAutomotivo() {
     </Head>
       <MenuComponent />
       <Container>
+
+      <h2 style={{color:"#e63946"}} >Acessórios automotivos:</h2>
+            <hr style={{width:"100px",
+             marginTop:"5px",
+             border:"2px solid #e63946",
+             color:"#e63946",
+             marginBottom:"20px"}}></hr>
+
         <Cards>
         <Link href="/Acessorios">
           <Card>
@@ -40,7 +48,7 @@ function CentroAutomotivo() {
         <Link href="/Preventiva">
           <Card>
             <VectorLocal>
-            
+
             <img src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/electric_car_b7hl.svg" width="150px" alt="Carro"/>
             </VectorLocal>
             <h3>Mecânica Preventiva</h3>

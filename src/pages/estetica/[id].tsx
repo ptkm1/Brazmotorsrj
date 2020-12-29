@@ -94,13 +94,13 @@ export default function Estetica({ estetica }) {
             <Left>
               <img src={estetica[0].imagem} />
               <LeftDown>
-              <h1 style={{ color: "#FF5555", fontSize: "1.6rem" }}>{estetica[0].titulo}</h1>
+              <h1 style={{ color: "#e63946", fontSize: "1.6rem" }}>{estetica[0].titulo}</h1>
               <p>{estetica[0].descricao}</p>
             </LeftDown>
             </Left>
             <Right>
               <h1 style={{
-                color: "#FF5555"
+                color: "#e63946"
               }} >
                 Demonstre interesse
               </h1>
