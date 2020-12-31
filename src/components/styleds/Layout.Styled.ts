@@ -20,21 +20,34 @@ export const Header = styled.div`
   flex-direction: column;
   padding-top: 65px;
 
+  @media (max-width: 700px) {
+    margin-top: -100px;
+    img{
+      margin-top: -60px;
+    }
+  }
 
   img{
     object-fit: cover;
 
     @media(max-width: 450px){
       object-fit: contain;
+      
     }
   }
 
   @media(max-width: 450px){
-    padding-top: 34px;
+    padding-top: -165px;
     height: 240px;
   }
 
 `;
+
+
+export const HeroImage = styled.div`
+
+`;
+
 // MAIN PART
 export const FirstSection = styled.div`
   width: 100%;

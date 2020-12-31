@@ -64,6 +64,7 @@ export const Left = styled.div`
       @media (max-width: 700px){
         width: 300px;
         height: max-content;
+
       }
     }
 
@@ -91,7 +92,9 @@ export const Right = styled.div`
     justify-content: flex-start;
 
     @media (max-width: 450px) {
-        width: 100%;
+        width: 83%;
+        flex-direction: column-reverse;
+
     }
 `;
 

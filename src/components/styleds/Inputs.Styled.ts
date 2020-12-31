@@ -3,15 +3,16 @@ import styled from 'styled-components';
 export const InputFilter = styled.select`
   width: 80%;
   height: 50px;
-  background: gray;
+  background: #fff;
   border: none;
-  border-radius: 15px;
+  border-radius: 7px;
   margin-top: 20px;
   padding-left: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   outline: none;
   color: none;
   option{
-    background: gray;
+    background: #fff;
   }
 `;
 

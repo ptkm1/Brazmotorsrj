@@ -10,7 +10,7 @@ export const CarModels = styled.div`
 
 export const FilterPart = styled.div`
 
-  color: black;
+  color: #e63946;
   width: 30%;
   height: 100vh;
   padding: 15px;
@@ -25,7 +25,7 @@ export const FilterPart = styled.div`
 `;
 
 export const CarsComponents = styled.div`
-  color: black;
+  color: #e63946;
   width: 70%;
 
   padding: 15px;

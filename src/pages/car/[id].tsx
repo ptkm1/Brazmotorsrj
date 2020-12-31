@@ -110,6 +110,7 @@ export default function Car({ carro }) {
             </LeftDown>
             </Left>
             <Right>
+              <div style={{display:"flex", flexDirection:"column", alignItems:"center", marginTop:"20px", width:"100%"}}>
               <h1 style={{ 
                 color: "#e63946"
               }} >
@@ -138,6 +139,7 @@ export default function Car({ carro }) {
                 </TextArea>
                 <ButtonBlack width="100%" onClick={()=>EnviarMensagem()}>Enviar</ButtonBlack>
               </InputsBox>
+               </div>
               <div style={{
                 textAlign: 'left',
                 width: "100%",
@@ -153,7 +155,7 @@ export default function Car({ carro }) {
                 <span>Valor: {carro[0].preco}</span>
               </div>
 
-
+             
             </Right>
           </UpSide>
 

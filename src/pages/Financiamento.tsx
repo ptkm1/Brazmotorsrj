@@ -67,8 +67,9 @@ export default function Index() {
           <HeroImageBottomPart style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(${bg})` }}>
            
           </HeroImageBottomPart>
-        <Footer />
+        
       </Container>
+      <Footer />
     </>
   )
 }

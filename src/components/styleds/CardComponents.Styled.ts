@@ -94,11 +94,11 @@ export const Card = styled.div`
 
   h4{
     color: #282A36;
-    font-size: 34px;
+    font-size: 1.1rem;
     line-height: 1.5;
   }
   h5{
-    font-size: 20px;
+    font-size: 0.8rem;
     color: #e63946;
   }
   h6{

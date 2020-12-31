@@ -6,6 +6,7 @@ export const QualidadesContainer = styled.div`
     background: #f6f7fb;
     display: flex;
     justify-content: space-around;
+
 `
 
 export const Qualidade = styled.div`
@@ -37,7 +38,7 @@ export const BlocoForm = styled.div`
     z-index: 10;
 
     @media (max-width: 700px){
-        width: 60vh;
+        width: 100%;
         grid-template-columns: 1fr;
         margin-bottom: 100px;
     }
@@ -50,6 +51,9 @@ export const LeftBlocoForm = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    
+
 `;
 
 export const RightBlocoForm = styled.div`

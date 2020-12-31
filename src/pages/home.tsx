@@ -65,12 +65,7 @@ export default function Home({carro}) {
       <MenuComponent />
       <Container>
         <Header>
-          <Image
-            src={Banner}
-            alt="Picture of the author"
-            width={500}
-            height={500}
-          />
+          <img src={Banner} alt="Picture of the author" />
         </Header>
 
 

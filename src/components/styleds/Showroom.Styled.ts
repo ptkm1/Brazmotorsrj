@@ -24,6 +24,15 @@ export const CardsContainer = styled.div`
     filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
     border-radius: 9px;
 
+    @media (max-width: 1400px) {
+        grid-template-columns: 1fr 1fr 1fr ;  
+        margin-bottom: 500px;   
+    }
+
+    @media (max-width: 1000px) {
+        grid-template-columns: 1fr 1fr;     
+    }
+
     @media (max-width: 700px) {
         display: flex;
     }
