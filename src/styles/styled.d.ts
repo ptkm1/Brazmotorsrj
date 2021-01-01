@@ -18,5 +18,7 @@ declare module 'react' {
     frameborder?: string;
     allowfullscreen?: string;
     tabindex?: string;
+    autoplay?: string;
+    allowfullscreen?: string;
   }
 }

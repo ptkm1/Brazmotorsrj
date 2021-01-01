@@ -36,11 +36,6 @@ import { TiSpanner } from "react-icons/ti"
 //Whats
 import WhatsApp from "../components/WhatsApp";
 
-//APIS
-import { CardsHome } from "./api/fakeApi";
-import SimpleSlider from "../components/Slide";
-import Slideshow from "../components/Slideshow";
-
 
 export const getStaticProps = async () => {
 
@@ -101,7 +96,7 @@ export default function Home({carro}) {
             <CardsInfoBot>
                 <span><IoCarSport /></span>
                 <h1>Belos carros</h1>
-                <p>Nós temos os mais belos carros, que combina com você, e com um preço que cabe no seu bolso.</p>
+                <p>Nós temos os mais belos carros, que combinam com você, e com um preço que cabe no seu bolso.</p>
             </CardsInfoBot>
             <CardsInfoBot>
                 <span> <TiSpanner /> </span>
