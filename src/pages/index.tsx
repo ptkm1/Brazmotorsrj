@@ -26,11 +26,8 @@ export default function Index() {
         <title>Brazmotors</title>
       </Head>
 
-      <video id="video" width="100%" height="100%" autoPlay>
-          <source src="https://video.wixstatic.com/video/ff6b3b_88fd5adc91544b28a0d0807a3c5d1060/480p/mp4/file.mp4" type="video/mp4" />
-        </video>
       <main>
-        
+      <video style={{width: "100%", height: "100vh"}} autoplay="autoplay" src="https://cdn.sitewebmotors.com.br/uploads/videos/raw/5b96bf49f10d6.mp4?c=2nguuyhc?c=0lygca52" id="video" preload="none"></video>
       </main>
     </div>
   )
