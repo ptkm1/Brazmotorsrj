@@ -10,6 +10,11 @@ export const Header = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 65px;
+  
+  img {
+    object-fit: fill;
+  }
+
 `;
 // MAIN PART
 export const FirstSection = styled.div`
