@@ -6,7 +6,7 @@ export default function Redirect() {
   useEffect(()=>{
 
     setTimeout(()=>{
-      //window.location.href = "https://api.whatsapp.com/send?phone=5521964896555"    
+      window.location.href = "https://api.whatsapp.com/send?phone=5521964896555"    
     },5000)
 
   },[])
