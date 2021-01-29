@@ -10,7 +10,7 @@ export const Container = styled.div`
 
     background-size: cover;
     background-position: center center;
-    background-image: linear-gradient(90deg, rgba(85, 84, 84, 0.5), rgba(44, 43, 43, 0.3)),url("https://lh5.googleusercontent.com/vvvrb7qjtpxpaCJs-BMBbrlJc4lj1DO8qH3iTAc2bSdlwbpKYIaid5kdRA0RWURyXYCH8XY=w16383");
+    background-image: linear-gradient(90deg, rgba(85, 84, 84, 0.5), rgba(44, 43, 43, 0.3)),url("https://lh6.googleusercontent.com/XdUM8BMRqYm27bkvOT5z3Lx2j9JIXRgDRDdNc4VzwRVG90EfLTaW_hWKprr4yfdxBwCPW3Q=w16383");
     transform: translate3d(0px, 0px, 0px);
 
     display: flex;

@@ -19,7 +19,7 @@ export default function Redirect() {
           {/* <a href="https://api.whatsapp.com/send?phone=5521964896555">SOLICITE AGORA</a> */}
         </Left>
         <Right>
-          <img src="https://lh5.googleusercontent.com/cLaGPFNi7B71ymnLGro7EujqExG4vgwfm3L1IelDnfS5OVmR8XVaA2DGKCuxe9GubSrIgwyxV7djgXS5-_9J0RVpHTzkrmiCVFYgLtvv9K0x_3tCY1A=w1280" alt="Brazmotors"/>
+          <img src="https://lh4.googleusercontent.com/tYzQqtrk73tSGMx_I3Q38AyqS9DexUzP_OaC7d4gJaWQsK7P8P_OY2ZJvgk8yzi5jTAcE5I-NUJw3xA3Z09j_lhJiJLxfMV8FLn7n9D6wwdDOpnxbcM=w1280" alt="Brazmotors"/>
         </Right>
       </Content>
     </Container>
