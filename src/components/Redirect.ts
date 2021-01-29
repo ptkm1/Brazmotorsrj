@@ -14,8 +14,21 @@ export const Container = styled.div`
     transform: translate3d(0px, 0px, 0px);
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    img{
+        width: 50%;
+      }
+
+    @media (max-width: 700px) {
+      width: 100vw;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-size: fill;
+    position: fixed;
+      
+    }
 `
 
 export const Content = styled.div`
@@ -25,6 +38,11 @@ export const Content = styled.div`
 
     display: flex;
     align-items:center;
+
+    @media (max-width: 700px) {
+      width: 100%;
+      flex-direction: column;
+    }
 `
 
 export const Left = styled.div`
@@ -63,6 +81,9 @@ export const Left = styled.div`
         background-color: rgb(197, 194, 194);
       }
     }
+    @media (max-width: 700px) {
+      width: 100%;
+      }
 
 `
 
@@ -77,6 +98,9 @@ export const Right = styled.div`
     img{
         width: 580px;
     }
+    @media (max-width: 700px) {
+      width: 100%;
+      }
 
 
 `
