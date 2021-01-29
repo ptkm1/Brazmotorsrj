@@ -24,6 +24,7 @@ export const Content = styled.div`
     max-width: 1280px;
 
     display: flex;
+    align-items:center;
 `
 
 export const Left = styled.div`
@@ -39,7 +40,7 @@ export const Left = styled.div`
     flex-direction: column;
 
     h1{
-      font-size: 4.5rem;
+      font-size: 39px;
       font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: 100;
       width: 70%;
@@ -73,8 +74,9 @@ export const Right = styled.div`
     justify-content: center;
     align-items: center;
     justify-content: center;
-img{
-    width: 580px;
-}
+    img{
+        width: 580px;
+    }
+
 
 `

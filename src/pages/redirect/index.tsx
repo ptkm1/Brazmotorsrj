@@ -6,7 +6,7 @@ export default function Redirect() {
   useEffect(()=>{
 
     setTimeout(()=>{
-      window.location.href = "https://api.whatsapp.com/send?phone=5521964896555"    
+      //window.location.href = "https://api.whatsapp.com/send?phone=5521964896555"    
     },5000)
 
   },[])
@@ -15,7 +15,7 @@ export default function Redirect() {
     <Container>
       <Content>
         <Left>
-          <h1>Orçamento grátis, estaremos te redirecionando para o chat no whatsapp</h1>
+          <h1>Orçamento grátis. Estaremos te redirecionando para o whatsapp...</h1>
           {/* <a href="https://api.whatsapp.com/send?phone=5521964896555">SOLICITE AGORA</a> */}
         </Left>
         <Right>
