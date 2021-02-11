@@ -43,7 +43,25 @@ const CardsHome = [
   }
 ]
 
+const ImgSlide = [
+  {
+    img: "https://firebasestorage.googleapis.com/v0/b/brazmotors-14952.appspot.com/o/slide1.jpg?alt=media&token=f61ddba6-3a29-44bd-bb81-d172dae1afaa"
+  },
+  {
+    img: "https://firebasestorage.googleapis.com/v0/b/brazmotors-14952.appspot.com/o/slide2.jpg?alt=media&token=f61ddba6-3a29-44bd-bb81-d172dae1afaa"
+  },
+  {
+    img: "https://firebasestorage.googleapis.com/v0/b/brazmotors-14952.appspot.com/o/slide3.jpg?alt=media&token=f61ddba6-3a29-44bd-bb81-d172dae1afaa"
+  },
+  {
+    img: "https://firebasestorage.googleapis.com/v0/b/brazmotors-14952.appspot.com/o/slide4.jpg?alt=media&token=f61ddba6-3a29-44bd-bb81-d172dae1afaa"
+  },
+  {
+    img: "https://firebasestorage.googleapis.com/v0/b/brazmotors-14952.appspot.com/o/slide5.jpg?alt=media&token=f61ddba6-3a29-44bd-bb81-d172dae1afaa"
+  }
+]
 
 
 
-export { CardsHome }
+
+export { CardsHome, ImgSlide }

@@ -95,13 +95,13 @@ export default function Especializada({ especializada }) {
             <Left>
               <img src={especializada[0].imagem} />
               <LeftDown>
-              <h1 style={{ color: "#e63946", fontSize: "1.6rem" }}>{especializada[0].titulo}</h1>
+              <h1 style={{ color: "black", fontSize: "1.6rem" }}>{especializada[0].titulo}</h1>
               <p>{especializada[0].descricao}</p>
             </LeftDown>
             </Left>
             <Right>
               <h1 style={{
-                color: "#e63946"
+                color: "black"
               }} >
                 Demonstre interesse
               </h1>
@@ -131,7 +131,7 @@ export default function Especializada({ especializada }) {
                 flexDirection: 'column'
               }}>
                 
-                <span>Valor: {especializada[0].preco}</span>
+                <span>Valor: {especializada[0].preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>
               </div>
 
 

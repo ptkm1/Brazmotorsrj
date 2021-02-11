@@ -25,12 +25,12 @@ export const CardsInfoBot = styled.div`
 
 
   span{
-    color: #e63946;
+    color: black;
     font-size: 3.3rem;
   }
 
   h1{
-    color: #e63946;
+    color: black;
     font-size: 1.3rem;
     font-weight: 700;
     margin-bottom: 10px;

@@ -33,7 +33,7 @@ export default function Index() {
 
       <Container>
         <WhatsApp />
-        <h2>Financiamento</h2>
+        <h2 style={{color:"black"}}>Financiamento</h2>
         <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #e63946", color: "#e63946", marginBottom: "20px" }}></hr>
         <QualidadesContainer>
           <Qualidade>

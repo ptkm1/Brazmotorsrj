@@ -11,7 +11,7 @@ export const QualidadesContainer = styled.div`
 
 export const Qualidade = styled.div`
     width: 200px;
-    color: grey;
+    color: #e63946;
 
     display: flex;
     flex-direction: column;

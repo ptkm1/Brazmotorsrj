@@ -78,11 +78,11 @@ export default function Modelos({carros}) {
       <MenuComponent />
       <Container>
         <FirstSection>
-          <h2 style={{color:"#e63946"}}>Veiculos feitos para você, em preço acessivel</h2>
+          <h2 style={{color:"black"}}>Veiculos feitos para você, em preço acessivel</h2>
         </FirstSection>
         <CarModels>
           <FilterPart>
-            <h2>Filtra</h2>
+            <h2 style={{color:"black"}}>Filtra</h2>
 
 
               <InputFilter onChange={ (e) => setMarca(e.target.value) }>

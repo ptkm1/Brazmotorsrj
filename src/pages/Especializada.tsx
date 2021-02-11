@@ -46,7 +46,7 @@ export default function Especializada({servico}) {
         <MenuComponent />
         <Container>
         <WhatsApp />
-            <h2>Mecanica especializada:</h2>
+            <h2 style={{color:"black"}} >Mecanica especializada:</h2>
             <hr style={{width:"100px", marginTop:"5px", border:"2px solid #e63946", color:"#e63946", marginBottom:"20px"}}></hr>
             <CardsContainer>
                 {servico.map((e) => (

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const NavBar = styled.div`
   background-color: white;
   width: 100%;
-  height: max-content;
+  height: 75px;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -25,7 +25,7 @@ export const NavBar = styled.div`
 `;
 
 export const ShowroomDrop = styled.div`
-  width: 110px;
+  width: 120px;
   height: max-content;
   background-color: white;
   position: absolute;
@@ -39,7 +39,7 @@ export const ShowroomDrop = styled.div`
   justify-content: space-around;
 
   a{
-    font-size: 13px; 
+    font-size: 15px; 
   }
 
   
@@ -68,7 +68,7 @@ export const MecanicaDrop = styled.div`
   justify-content: space-around;
 
   a{
-    font-size: 13px; 
+    font-size: 15px; 
   }
 
   
@@ -95,11 +95,11 @@ export const OptionsNavbar = styled.ul`
   }
   a {
     text-decoration: none;
-    color: #e63946;
+    color: black;
     transition: 0.3s;
   }
   a:hover {
-    color: #e63946;
+    color: black;
   }
   @media(max-width: 500px){
     display: none;

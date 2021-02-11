@@ -39,7 +39,7 @@ export default function Acessorios({acessorio}) {
         <Container>
         <WhatsApp />
         
-            <h2>Acessórios automotivos:</h2>
+            <h2 style={{color:"black"}}>Acessórios automotivos:</h2>
             <hr style={{width:"100px",
              marginTop:"5px",
              border:"2px solid #e63946",

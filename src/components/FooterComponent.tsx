@@ -4,7 +4,8 @@ import Link from 'next/link'
 import {  IoLocationSharp, IoMailSharp } from 'react-icons/io5'
 import { GiPhone } from 'react-icons/gi'
 import { FiInstagram } from 'react-icons/fi'
-import { AiOutlineFacebook } from 'react-icons/ai'
+import { FaFacebookSquare } from 'react-icons/fa'
+import Insta from '../assets/insta.svg'
 
 import {
   Container,
@@ -41,11 +42,11 @@ export default function FooterComponent() {
         </ItemsFooter>
     </ItemsTop>
     <ItemsMid>
-      <div>
-        <a href="https://www.instagram.com/brazmotorsrj" target="_blank"  > <h2> <FiInstagram size="28px" /> </h2></a>
-        <a href="https://www.facebook.com/brazmotorsrj" target="_blank"  > <h2> <AiOutlineFacebook size="28px"/> </h2></a>
+      <div style={{display: "flex", alignItems: "center"}}>
+        <a href="https://www.instagram.com/brazmotorsrj" target="_blank"  > <img style={{width: "33px"}} src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+        <a href="https://www.facebook.com/brazmotorsrj" target="_blank"  > <h2 style={{color:"#3b5998"}} > <FaFacebookSquare size="28px"/> </h2></a>
       </div>
-      <hr style={{ width: "100%", border: "1px solid #e63946"}}></hr>
+      <hr style={{ width: "100%", border: "1px solid black"}}></hr>
     </ItemsMid>
     <ItemsBot>
       <p>© 2020 por Brazmotors.</p>

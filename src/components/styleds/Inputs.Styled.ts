@@ -44,7 +44,7 @@ export const Input = styled.input`
   background: #f6f7fb;
   padding-left: 15px;
   outline: none;
-  border: 1px solid #e63946;
+  border: 1px solid black;
   box-sizing: border-box;
   margin: 15px;
 
@@ -63,7 +63,7 @@ export const SmallInput = styled.input`
   padding-left: 15px;
   outline: none;
 
-  border: 1px solid #e63946;
+  border: 1px solid black;
   box-sizing: border-box;
 
     @media (max-width: 450px) {
@@ -78,7 +78,7 @@ export const TextArea = styled.textarea`
   padding: 15px;
   outline: none;
 
-  border: 1px solid #e63946;
+  border: 1px solid black;
   box-sizing: border-box;
   margin: 15px;
   resize: none;

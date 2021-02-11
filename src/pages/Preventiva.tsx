@@ -45,7 +45,7 @@ export default function Preventiva({servico}) {
        
         <Container>
         <WhatsApp />
-            <h2>Mecanica preventiva:</h2>
+            <h2 style={{color:"black"}}>Mecanica preventiva:</h2>
             <hr style={{width:"100px", marginTop:"5px", border:"2px solid #e63946", color:"#e63946", marginBottom:"20px"}}></hr>
             <CardsContainer>
                 {servico.map((e) => (
@@ -66,16 +66,18 @@ export default function Preventiva({servico}) {
                         </Card>
                   </Link>
                 ))}
-            </CardsContainer> 
-           <ContainerForms>
-               <h1>Entre em contato:</h1>
-               <InputsBox>
-                    <Input type="text" placeholder="Nome" />
-                    <Input type="text" placeholder="Telefone" />
-                    <Input type="text" placeholder="Email" />
-                    <ButtonBlackBorder width="50%">Enviar</ButtonBlackBorder>
-               </InputsBox>
-           </ContainerForms>
+            </CardsContainer>
+            <div style={{width: "63%"}}> 
+              <ContainerForms>
+                  <h1>Entre em contato:</h1>
+                  <InputsBox>
+                        <Input type="text" placeholder="Nome" />
+                        <Input type="text" placeholder="Telefone" />
+                        <Input type="text" placeholder="Email" />
+                        <ButtonBlackBorder width="50%">Enviar</ButtonBlackBorder>
+                  </InputsBox>
+              </ContainerForms>
+           </div>
            <Footer />
         </Container>
         

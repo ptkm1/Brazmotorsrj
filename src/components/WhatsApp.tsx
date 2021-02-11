@@ -6,7 +6,7 @@ export default function WhatsApp() {
     return (
         <div>
             <ContainerWhats>
-            <span><RiWhatsappFill /></span>
+                <span><RiWhatsappFill /></span>
             </ContainerWhats>
         </div>
     )

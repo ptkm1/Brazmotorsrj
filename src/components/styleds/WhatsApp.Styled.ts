@@ -1,4 +1,16 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const fadeIn = keyframes`
+  0% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+`
 
 export const ContainerWhats = styled.div`
     width: 45px;
@@ -22,9 +34,11 @@ export const ContainerWhats = styled.div`
         text-align: center;
         color: #25D366;
         margin-top: 10px;
+        animation: 1s ${fadeIn} infinite;
 
         :hover{
             color: #075E54;
         }
+        
     }
 `;

@@ -27,6 +27,7 @@ const Logo =
 import MenuComponent from "../components/MenuComponent";
 
 import Banner from "../assets/1.png";
+import BannerSlide from "../components/BannerComponent";
 //Icons
 import { IoMailSharp, IoLocationSharp, IoCall, IoCarSport } from "react-icons/io5";
 import { GrConfigure } from "react-icons/gr";
@@ -60,7 +61,8 @@ export default function Home({carro}) {
       <MenuComponent />
       <Container>
         <Header>
-          <img src={Banner} alt="Picture of the author" />
+          {/* <img src={Banner} alt="Picture of the author" /> */}
+          <BannerSlide />
         </Header>
 
 
@@ -77,11 +79,11 @@ export default function Home({carro}) {
                 <Card key={e.id}>
                   <CardImage uri={e.imagem} />
                   <CardInfo>
-                      <h4>{e.nome}</h4>
-                      <h5>{e.marca}</h5>
+                      <h4>{e.marca}</h4>
+                      <h5 style={{color:"black"}}>{e.nome}</h5>
                       <div style={{display:"flex", width:"100%", justifyContent:"space-between"}}>
                         <h6>Ano: {e.ano}</h6>
-                        <h6>{e.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h6>
+                        <h6 style={{color:"#e63946"}}>{e.preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</h6>
                       </div>
                   </CardInfo>
                 </Card>
@@ -90,7 +92,7 @@ export default function Home({carro}) {
             )}
         </SecondSection>
 
-          <h1 style={{marginTop:"250px", fontSize: '1.9rem'}} >Compre já!</h1>
+          <h1 style={{marginTop:"250px", fontSize: '1.9rem', color: "black"}} >Compre já!</h1>
           <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #e63946", color: "#e63946" }}></hr>
           <CardContainerHome>
             <CardsInfoBot>
@@ -110,10 +112,10 @@ export default function Home({carro}) {
             </CardsInfoBot>
           </CardContainerHome>
 
-          <h1 style={{marginTop:"150px", fontSize: '1.9rem'}} >Visite-nos</h1>
+          <h1 style={{marginTop:"150px", fontSize: '1.9rem', color:"black"}} >Visite-nos</h1>
           <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #e63946", color: "#e63946", marginBottom: "70px" }}></hr>
           <div style={{marginBottom: "180px" , width: '100%', display: 'flex', justifyContent: 'center'}}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.52960198539!2d-43.35190028487018!3d-23.004319047142356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdbff1c22675f%3A0x1f6ef7a0bc3b8a3a!2sBRAZMOTORSRJ!5e0!3m2!1spt-BR!2sbr!4v1608662047679!5m2!1spt-BR!2sbr" width="90%" height="600px" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.52960198539!2d-43.35190028487018!3d-23.004319047142356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdbff1c22675f%3A0x1f6ef7a0bc3b8a3a!2sBRAZMOTORSRJ!5e0!3m2!1spt-BR!2sbr!4v1608662047679!5m2!1spt-BR!2sbr" width="90%" height="500px" frameborder="0"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
         <Footer />
       </Container>

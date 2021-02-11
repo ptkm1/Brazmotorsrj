@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,9 +17,11 @@ export const Container = styled.div`
 
 export const Header = styled.div`
   width: 100%;
+  min-height: 520px;
   display: flex;
   flex-direction: column;
   padding-top: 65px;
+  
 
   @media (max-width: 700px) {
     margin-top: -100px;
@@ -61,7 +64,7 @@ export const FirstSection = styled.div`
   h1 {
     font-size: 2.8rem;
     font-weight: 700;
-    color: #e63946;
+    color: black;
   }
   h2 {
     color: #282a36;
@@ -81,6 +84,7 @@ export const SecondSection = styled.div`
   align-content: center;
   justify-items: center;
   justify-content: center;
+  
   @media (max-width: 700px){
     display: flex;
     flex-direction: column;

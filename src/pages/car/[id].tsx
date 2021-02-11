@@ -152,7 +152,7 @@ export default function Car({ carro }) {
                 <span>Ano:{carro[0].ano}</span>
                 <span>Marca: {carro[0].marca}</span>
                 <span>Modelo: {carro[0].modelo}</span>
-                <span>Valor: {carro[0].preco}</span>
+                <span>Valor: {carro[0].preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>
               </div>
 
              

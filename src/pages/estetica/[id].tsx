@@ -130,7 +130,7 @@ export default function Estetica({ estetica }) {
                 flexDirection: 'column'
               }}>
                 
-                <span>Valor: {estetica[0].preco}</span>
+                <span>Valor: {estetica[0].preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</span>
               </div>
 
 

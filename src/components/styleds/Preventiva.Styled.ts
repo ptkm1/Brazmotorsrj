@@ -21,13 +21,13 @@ export const  Container = styled.div`
 export const CardsContainer = styled.div`
   width: 65%;
   margin-top: 15px;
-  padding-left: 70px;
+  justify-items: center;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-around;
   grid-gap: 10px;
-  padding: 10px;
+  
 
   @media (max-width: 450px) {
     display: flex;
@@ -46,7 +46,7 @@ export const ContainerForms = styled.div`
   height: 600px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #e63946;
+  background-color: black;
   text-align: center;
 
   display: flex;
@@ -59,7 +59,7 @@ export const CardHover = styled.div`
   width: 480px;
   height: 400px;
   color: #fff;
-  background-color: #e63946;
+  background-color: black;
   position: absolute;
   z-index: 10;
   padding: 20px;
@@ -92,7 +92,7 @@ export const PrecoHover = styled.div`
 export const Card = styled.div`
   width: 480px;
   height: 400px;
-  background: #e63946;
+  background: black;
   cursor: pointer;
   transition: 0.3s;
 
