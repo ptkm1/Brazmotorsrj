@@ -5,9 +5,13 @@ import { ContainerWhats } from "../components/styleds/WhatsApp.Styled";
 export default function WhatsApp() {
     return (
         <div>
+            <a href='https://api.whatsapp.com/send?phone=555521964896555' >
             <ContainerWhats>
-                <span><RiWhatsappFill /></span>
+                
+                    <span><RiWhatsappFill /></span>
+               
             </ContainerWhats>
+            </a>
         </div>
     )
 }

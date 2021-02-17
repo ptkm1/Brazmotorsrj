@@ -42,9 +42,9 @@ export default function FooterComponent() {
         </ItemsFooter>
     </ItemsTop>
     <ItemsMid>
-      <div style={{display: "flex", alignItems: "center"}}>
+      <div style={{display: "flex", alignItems: "flex-start", height:"50px"}}>
         <a href="https://www.instagram.com/brazmotorsrj" target="_blank"  > <img style={{width: "33px"}} src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
-        <a href="https://www.facebook.com/brazmotorsrj" target="_blank"  > <h2 style={{color:"#3b5998"}} > <FaFacebookSquare size="28px"/> </h2></a>
+        <a href="https://www.facebook.com/brazmotorsrj" target="_blank"  > <h2 style={{color:"#3b5998", marginBottom:"40px"}} > <FaFacebookSquare size="28px"/> </h2></a>
       </div>
       <hr style={{ width: "100%", border: "1px solid black"}}></hr>
     </ItemsMid>

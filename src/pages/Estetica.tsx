@@ -58,15 +58,7 @@ export default function Estetica({servico}) {
                         </Link>
                 ))}
             </CardsContainer> 
-           <ContainerForms>
-               <h1>Entre em contato:</h1>
-               <InputsBox>
-                    <Input type="text" placeholder="Nome" />
-                    <Input type="text" placeholder="Telefone" />
-                    <Input type="text" placeholder="Email" />
-                    <ButtonBlackBorder>Enviar</ButtonBlackBorder>
-               </InputsBox>
-           </ContainerForms>
+
         </Container>
     </>
   )

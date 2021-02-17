@@ -22,6 +22,7 @@ export const CardsContainer = styled.div`
   width: 65%;
   margin-top: 15px;
   justify-items: center;
+  margin-bottom: 40px;
 
   display: grid;
   grid-template-columns: 1fr 1fr;

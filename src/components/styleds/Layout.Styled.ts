@@ -73,6 +73,11 @@ export const FirstSection = styled.div`
     font-size: 1.5rem;
     font-weight: 500;
   }
+
+  @media(max-width: 425px){
+    padding: 40px;
+    margin-top: -200px;
+  }
 `;
 
 export const SecondSection = styled.div`

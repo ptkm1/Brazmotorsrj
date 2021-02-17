@@ -68,15 +68,7 @@ export default function Preventiva({servico}) {
                 ))}
             </CardsContainer>
             <div style={{width: "63%"}}> 
-              <ContainerForms>
-                  <h1>Entre em contato:</h1>
-                  <InputsBox>
-                        <Input type="text" placeholder="Nome" />
-                        <Input type="text" placeholder="Telefone" />
-                        <Input type="text" placeholder="Email" />
-                        <ButtonBlackBorder width="50%">Enviar</ButtonBlackBorder>
-                  </InputsBox>
-              </ContainerForms>
+
            </div>
            <Footer />
         </Container>

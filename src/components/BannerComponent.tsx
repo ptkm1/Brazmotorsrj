@@ -21,16 +21,21 @@ const Galeria = styled.div`
     width: 100%;
     height: 500px;
     position: relative;
+    margin-top: 40px;
+
+    @media(max-width:425){
+      height: 300px;
+    }
+
 
 `
 const Foto = styled.img`
         position: absolute;
         opacity: 0;
         width: 100%;
-        height: 500px;
+        height: 400px;
         animation: 30s ${fadeIn} infinite; 
-        object-fit: cover;
-
+        object-fit: fill;
 
         &:nth-child(1){
 
@@ -51,6 +56,11 @@ const Foto = styled.img`
         &:nth-child(5){
             animation-delay: 20s;
         } 
+
+        @media(max-width:425){
+          height: 200px;
+        }
+
 
 `
 

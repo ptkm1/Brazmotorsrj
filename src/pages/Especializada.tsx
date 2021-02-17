@@ -38,6 +38,7 @@ export default function Especializada({servico}) {
 
   const [isModalVisible, setIsModalVisible] = useState(false);
 
+  console.log(servico)
   return (
     <>
         <Head>
@@ -50,7 +51,7 @@ export default function Especializada({servico}) {
             <hr style={{width:"100px", marginTop:"5px", border:"2px solid #e63946", color:"#e63946", marginBottom:"20px"}}></hr>
             <CardsContainer>
                 {servico.map((e) => (
-                      <Link href={`mecesp/[id]`} as={`mecesp/${e._id}`}>
+                      <Link key={e._id} href={`mecesp/[id]`} as={`mecesp/${e._id}`}>
                         <Card key={e._id}>
                             <CardHover id="cardHover">
                                 <h3>{e.titulo}</h3>
@@ -67,15 +68,7 @@ export default function Especializada({servico}) {
                       </Link>
                 ))}
             </CardsContainer> 
-           <ContainerForms>
-               <h1>Entre em contato:</h1>
-               <InputsBox>
-                    <Input type="text" placeholder="Nome" />
-                    <Input type="text" placeholder="Telefone" />
-                    <Input type="text" placeholder="Email" />
-                    <ButtonBlackBorder width="50%">Enviar</ButtonBlackBorder>
-               </InputsBox>
-           </ContainerForms>
+
            <FooterComponent />
         </Container>
         {isModalVisible ? <Modal onClose={() => setIsModalVisible(false)} /> : null}
