@@ -15,7 +15,7 @@ export default function MenuComponent() {
   return (
     <NavBar>
       <div style={{display: 'flex', alignItems: 'center'}}>
-        <img id="Logo" src={LogoNova} alt="logo" style={{width: "200px"}} />
+        <img id="Logo" src={LogoNova} alt="logo" style={{width: "270px"}} />
       </div>
         <OptionsNavbar>
           <li>

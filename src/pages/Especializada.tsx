@@ -38,7 +38,6 @@ export default function Especializada({servico}) {
 
   const [isModalVisible, setIsModalVisible] = useState(false);
 
-  console.log(servico)
   return (
     <>
         <Head>
@@ -51,7 +50,7 @@ export default function Especializada({servico}) {
             <hr style={{width:"100px", marginTop:"5px", border:"2px solid #e63946", color:"#e63946", marginBottom:"20px"}}></hr>
             <CardsContainer>
                 {servico.map((e) => (
-                      <Link key={e._id} href={`mecesp/[id]`} as={`mecesp/${e._id}`}>
+                      <Link href={`mecesp/[id]`} as={`mecesp/${e._id}`}>
                         <Card key={e._id}>
                             <CardHover id="cardHover">
                                 <h3>{e.titulo}</h3>

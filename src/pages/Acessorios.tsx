@@ -47,7 +47,7 @@ export default function Acessorios({acessorio}) {
              marginBottom:"20px"}}></hr>
             <CardsContainer>
                 {acessorio.map((e) => (
-                        <Card key={e.id}>
+                        <Card key={e.id} onClick={()=> window.location.href = "https://api.whatsapp.com/send?phone=555521964896555" } >
                             <CardHover id="cardHover">
                                 <h3>{e.titulo}</h3>
                                 <p>{e.descricao}</p>
