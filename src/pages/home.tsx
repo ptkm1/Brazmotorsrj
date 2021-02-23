@@ -63,7 +63,7 @@ export default function Home({carro}) {
         <Header>
           {/* <img src={Banner} alt="Picture of the author" /> */}
           <BannerSlide />
-          <iframe src="https://teste-brazmotors.herokuapp.com/public/slide.html">
+          <iframe src="https://teste-brazmotors.herokuapp.com/public/slide.html" height="500px">
           </iframe>
         </Header>
 
