@@ -23,11 +23,8 @@ export const Header = styled.div`
   padding-top: 65px;
   
 
-  @media (max-width: 700px) {
-    margin-top: -100px;
-    img{
-      margin-top: -60px;
-    }
+  @media (max-width: 425px) {
+    margin-top: 20px;
   }
 
   img{
