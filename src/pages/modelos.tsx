@@ -30,7 +30,8 @@ export const getStaticProps = async () => {
   return {
     props: {
       carros: data,
-    }
+    },
+    revalidate: 30,
   }
   
 }

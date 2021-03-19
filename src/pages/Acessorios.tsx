@@ -23,7 +23,8 @@ export const getStaticProps = async () => {
     return {
       props: {
         acessorio: data,
-      }
+      },
+      revalidate: 30,
     }
     
   }

@@ -36,7 +36,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
       estetica: data,
-    }
+    },
+    revalidate: 30,
   }
 }
 

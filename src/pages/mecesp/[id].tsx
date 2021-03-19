@@ -36,7 +36,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
   return {
     props: {
       especializada: data,
-    }
+    },
+    revalidate: 30,
   }
 }
 
