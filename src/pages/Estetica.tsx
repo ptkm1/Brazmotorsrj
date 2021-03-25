@@ -8,7 +8,7 @@ import { CardsContainer, Container, Card, CardTop, ContainerForms, CardHover, Pr
 import { InputsBox, Input } from '../components/styleds/Inputs.Styled';
 import { ButtonBlackBorder } from '../components/styleds/Buttons.Styled';
 
-import Teste from '../assets/testePreven.png';
+import Footer from "../components/FooterComponent"
 
 //Whats
 import WhatsApp from "../components/WhatsApp";
@@ -59,7 +59,7 @@ export default function Estetica({servico}) {
                         </Link>
                 ))}
             </CardsContainer> 
-
+            <Footer />
         </Container>
     </>
   )

@@ -7,8 +7,7 @@ import MenuComponent from "../components/MenuComponent";
 import { CardsContainer, Container, Card, CardTop, ContainerForms, PrecoHover } from '../components/styleds/Preventiva.Styled';
 import { InputsBox, Input } from '../components/styleds/Inputs.Styled';
 import { ButtonBlackBorder } from '../components/styleds/Buttons.Styled';
-
-import Teste from '../assets/testePreven.png';
+import Footer from "../components/FooterComponent"
 
 import { CardHover } from '../components/styleds/Preventiva.Styled';
 
@@ -63,7 +62,8 @@ export default function Acessorios({acessorio}) {
                             <h1>{e.titulo}</h1>
                         </Card>
                 ))}
-            </CardsContainer>  
+            </CardsContainer>
+            <Footer />  
         </Container>
     </>
   )

@@ -51,7 +51,7 @@ export default function FooterComponent() {
       <hr style={{ width: "100%", border: "1px solid black"}}></hr>
     </ItemsMid>
     <ItemsBot>
-      <p>© 2021 por Brazmotors.</p>
+      <p>© 2021 por BrazmotorsRj.</p>
     </ItemsBot>
   </Footer>
   )

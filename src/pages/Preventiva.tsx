@@ -68,9 +68,6 @@ export default function Preventiva({servico}) {
                   </Link>
                 ))}
             </CardsContainer>
-            <div style={{width: "63%"}}> 
-
-           </div>
            <Footer />
         </Container>
         
