@@ -34,6 +34,11 @@ export const ItemsFooter = styled.div`
   display: flex;
   align-items: center;
 
+  font-weight: 200;
+  font-family: Arial;
+  letter-spacing: 2px;
+  font-size: 20px;
+
   ul{
     list-style: none;
   }

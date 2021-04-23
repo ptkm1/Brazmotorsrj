@@ -44,6 +44,9 @@ export default function Modelos({carros}) {
   const [ Modelo , setModelo ] = useState('')
   const [ Cores , setCores ] = useState('')
 
+  let type = 'asc'
+
+
   // Metodos de filtragem
   function GetUnico(arr, comp) {
     const unico = 
@@ -61,6 +64,29 @@ export default function Modelos({carros}) {
   const unicaMarca = GetUnico(carros,"marca")
   const unicoModelo = GetUnico(carros,"modelo")
   const unicoAno = GetUnico(carros,"ano")
+
+  let Modelos1 = unicoModelo.map(unico => {
+    return unico.modelo
+  })
+
+  let Marcas1 = unicaMarca.map(unico => {
+    return unico.marca
+  })
+
+  let Ano1 = unicoAno.map(unico => {
+    return unico.ano
+  })
+
+  let Cor1 = unicoAno.map(unico => {
+    return unico.cor
+  })
+
+  const ModelosSorted = Modelos1.sort()
+  const MarcasSorted = Marcas1.sort()
+  const AnoSorted = Ano1.sort()
+  const CorSorted = Cor1.sort()
+
+
 
   const CarrosFiltrados = carros
   .filter( e => e.ano.toLowerCase().includes(Ano.toLowerCase()) )
@@ -88,30 +114,31 @@ export default function Modelos({carros}) {
 
               <InputFilter onChange={ (e) => setMarca(e.target.value) }>
               <option value="0">Selecione a Marca</option>
-              { unicaMarca.map( e => (
-                <option key={e.marca} value={e.marca}>{e.marca}</option>
+              { MarcasSorted.map( e => (
+                <option key={e} value={e}>{e}</option>
               ) ) }
                 
               </InputFilter>
 
+
               <InputFilter onChange={ (e) => setAno(e.target.value) }>
                 <option value="0">Selecione a Ano</option>
-                { unicoAno.map( e => (
-                <option key={e.ano} value={e.ano}>{e.ano}</option>
+                { AnoSorted.map( e => (
+                <option key={e} value={e}>{e}</option>
               ) ) }
               </InputFilter>
 
               <InputFilter onChange={ (e) => setModelo(e.target.value) }>
                 <option value="0">Selecione o modelo</option>
-                { unicoModelo.map( e => (
-                <option key={e.modelo} value={e.modelo}>{e.modelo}</option>
+                { ModelosSorted.map( e => (
+                <option key={e} value={e}>{e}</option>
               ) ) }
               </InputFilter>
 
               <InputFilter onChange={ (e) => setCores(e.target.value) }>
                 <option value="0">Selecione a Cores</option>
-                { unicaCor.map( e => (
-                <option key={e.cor} value={e.cor}>{e.cor}</option>
+                { CorSorted.map( e => (
+                <option key={e} value={e}>{e}</option>
               ) ) }
               </InputFilter>
           </FilterPart>

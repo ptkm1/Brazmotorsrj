@@ -15,7 +15,7 @@ export default function MenuComponent() {
   return (
     <NavBar>
       <div style={{display: 'flex', alignItems: 'center'}}>
-        <img id="Logo" src={LogoNova} alt="logo" style={{width: "370px"}} />
+        <img id="Logo" src={LogoNova} alt="logo"  />
       </div>
         <OptionsNavbar>
           <li>
@@ -24,6 +24,7 @@ export default function MenuComponent() {
           <li>
             <Link href="/Empresa">Empresa</Link>
           </li>
+
           <ShowroomHover>
             <li>
               <Link href="/showroom">Showroom</Link>
@@ -37,6 +38,8 @@ export default function MenuComponent() {
                 </li>
               </ShowroomDrop>
           </ShowroomHover>
+
+          
           <MecanicaHover>
             <li>
               <Link href="/CentroAutomotivo">Centro automotivo</Link>

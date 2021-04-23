@@ -13,9 +13,18 @@ export const NavBar = styled.div`
  
 
   #Logo {
-    width: 41px;
+    width: 370px;
+    position: fixed;
   }
-  @media (max-width: 700px){
+
+  
+  @media (max-width: 1100px) {
+    #Logo {
+      left: -8px;
+    }
+  }
+
+  @media (max-width: 700px) {
     padding: 10px 30px;
 
     input{
@@ -101,7 +110,7 @@ export const OptionsNavbar = styled.ul`
   a:hover {
     color: black;
   }
-  @media(max-width: 500px){
+  @media(max-width: 850px){
     display: none;
   } 
   

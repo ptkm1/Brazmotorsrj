@@ -51,7 +51,7 @@ export default function FooterComponent() {
       <hr style={{ width: "100%", border: "1px solid black"}}></hr>
     </ItemsMid>
     <ItemsBot>
-      <p>© 2021 por BrazmotorsRj.</p>
+      <p>© 2021 por BrazmotorsRj. - <a style={{ color: 'green' }} href="https://codecomunity.tech" > Desenvolvido por CodeComunity </a></p>
     </ItemsBot>
   </Footer>
   )
