@@ -25,6 +25,20 @@ export const Footer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+     a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+     font-size: 17px;
+     width: 70%;
+    }
+
+    h3{
+        font-size: 12px;
+        margin: 2px;
+    } 
+
   }
 
 `
@@ -63,6 +77,7 @@ export const ItemsTop = styled.div`
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: left;
+    margin-left: -30%;
   }
 `
 
