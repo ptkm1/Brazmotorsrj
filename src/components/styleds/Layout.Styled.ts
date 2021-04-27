@@ -13,6 +13,11 @@ export const Container = styled.div`
     color: #e63946;
   }
 
+  
+  @media (max-width: 500px) {
+    margin: 0 auto;
+  }
+
 `;
 
 export const Header = styled.div`
@@ -21,25 +26,17 @@ export const Header = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 65px;
-  
 
-  @media (max-width: 425px) {
-    margin-top: 20px;
-  }
 
-  img{
-    object-fit: cover;
+@media (max-width: 500px) {
+      margin: 0 auto;
+      height: 500px;
 
-    @media(max-width: 450px){
-      object-fit: contain;
-      
-    }
-  }
-
-  @media(max-width: 450px){
-    padding-top: -165px;
-    height: 240px;
-  }
+      iframe {
+        height: 360px;
+        margin-bottom: 150px;
+        margin-top: 50px;
+      }
 
 `;
 
