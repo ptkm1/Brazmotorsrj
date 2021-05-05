@@ -36,6 +36,44 @@ export const UpSide = styled.div`
 
     @media (max-width: 450px) {
         display: flex;
+        import styled from "styled-components";
+
+export const Container = styled.div`
+    width: 100%;
+    height: 100%;
+    background-color: #F2F3F8;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 450px) {
+        padding-top: 75px;
+    }
+`;
+
+export const Content = styled.div`
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 450px) {
+        margin-top: 0px;
+        align-items: center;
+    }
+`;
+
+export const UpSide = styled.div`
+    width: 100%;
+    margin-top: 70px;
+
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 450px) {
+        display: flex;
         flex-direction: column;
         align-items: center;
         margin: 10px;

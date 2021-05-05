@@ -78,6 +78,86 @@ export default function Home({carro}) {
         <SecondSection>
             {carro.map(
               (e): JSX.Element => (
+                <Link href="/car/[id]" as={`/car/$import React, { useEffect } from "react";
+import Head from "next/head";
+import Link from "next/link";
+import Image from 'next/image';
+import {
+  Container,
+  Header,
+  FirstSection,
+  SecondSection,
+  CentralizeText,
+  ItemsFooter,
+  CardsContainerHome,
+  CardInfoHome,
+  IconInfo,
+
+} from "../components/styleds/Layout.Styled";
+
+
+
+import Footer from '../components/FooterComponent'
+import { NavBar, OptionsNavbar } from "../components/styleds/Navbar.Styled";
+import { Card, CardImage, CardInfo, CardSeparaBot, CardSeparaTop,   CardContainerHome, CardsInfoBot } from "../components/styleds/CardComponents.Styled";
+import { ContainerWhats } from "../components/styleds/WhatsApp.Styled";
+const Logo =
+  "https://static.wixstatic.com/media/f55eb9_75da84b90d074eb492e51266a5110559~mv2.png/v1/fill/w_284,h_87,al_c,q_85,usm_0.66_1.00_0.01/logo_02.webp";
+
+import MenuComponent from "../components/MenuComponent";
+
+import Banner from "../assets/1.png";
+import BannerSlide from "../components/BannerComponent";
+//Icons
+import { IoMailSharp, IoLocationSharp, IoCall, IoCarSport } from "react-icons/io5";
+import { GrConfigure } from "react-icons/gr";
+import { BiDollar } from "react-icons/bi"
+import { TiSpanner } from "react-icons/ti"
+
+//Whats
+import WhatsApp from "../components/WhatsApp";
+
+
+export const getStaticProps = async () => {
+
+  const response = await fetch('https://teste-brazmotors.herokuapp.com/carros/')
+  const data = await response.json();
+  console.log(data)
+
+  return {
+    props: {
+      carro: data,
+    },
+    revalidate: 30,
+  }
+}
+
+export default function Home({carro}) {
+
+  return (
+    <>
+      <Head>
+        <title>Brazmotors RJ</title>
+      </Head>
+      <MenuComponent />
+      <Container>
+        <Header>
+          {/* <img src={Banner} alt="Picture of the author" /> */}
+          { /* <BannerSlide /> */ }
+          <iframe style={{ border: 'none' }} src="https://teste-brazmotors.herokuapp.com/public/slidenovo.html" height="700px">
+          </iframe>
+        </Header>
+
+
+        <WhatsApp />
+
+        <FirstSection>
+          <h1 style={{marginTop:"30px", fontSize: '1.9rem'}} >Nossos carros</h1>
+          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #e63946", color: "#e63946", marginBottom: "20px" }}></hr>
+        </FirstSection>
+        <SecondSection>
+            {carro.map(
+              (e): JSX.Element => (
                 <Link href="/car/[id]" as={`/car/${e._id}`}>
                 <Card key={e.id}>
                   <CardImage uri={e.imagem} />

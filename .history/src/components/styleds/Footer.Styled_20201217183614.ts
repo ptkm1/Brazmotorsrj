@@ -35,6 +35,43 @@ export const ItemsFooter = styled.div`
 
 export const ItemsTop = styled.div`
   width: 100%;
+  height: maximport styled from 'styled-components'
+
+export const Footer = styled.div`
+  width: 100%; 
+  height: max-content;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  h3{
+      font-size: 50px;
+      margin: 5px;
+  } 
+
+`
+
+export const ItemsFooter = styled.div`
+  display: flex;
+  align-items: center;
+
+  ul{
+    list-style: none;
+  }
+
+`
+
+export const ItemsTop = styled.div`
+  width: 100%;
   height: max-content;
   padding: 70px 100px;
   background-color: black;

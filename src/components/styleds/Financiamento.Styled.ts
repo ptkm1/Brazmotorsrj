@@ -11,12 +11,53 @@ export const QualidadesContainer = styled.div`
 
 export const Qualidade = styled.div`
     width: 200px;
-    color: #e63946;
+    color: black;
 
     display: flex;
     flex-direction: column;
 
     span{
+        color: #e63946;
+        font-size: 80px;
+    }
+    
+    h3{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+`
+
+export const BlocoForm = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    width: 50vw;
+    height: 400px;
+    background: gray;
+    margin: 0 auto;
+    margin-bottom: -35px;
+    z-index: 10;
+
+    @mimport styled from "styled-components";
+
+export const QualidadesContainer = styled.div`
+    width: 65%;
+    height: 400px;
+    background: #f6f7fb;
+    display: flex;
+    justify-content: space-around;
+
+`
+
+export const Qualidade = styled.div`
+    width: 200px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+
+    span{
+        color: #e63946;
         font-size: 80px;
     }
     

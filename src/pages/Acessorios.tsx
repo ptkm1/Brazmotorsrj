@@ -7,6 +7,15 @@ import MenuComponent from "../components/MenuComponent";
 import { CardsContainer, Container, Card, CardTop, ContainerForms, PrecoHover } from '../components/styleds/Preventiva.Styled';
 import { InputsBox, Input } from '../components/styleds/Inputs.Styled';
 import { ButtonBlackBorder } from '../components/styleds/Buttons.Styled';
+import Footer from "../componentimport React from 'react'
+import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image';
+
+import MenuComponent from "../components/MenuComponent";
+import { CardsContainer, Container, Card, CardTop, ContainerForms, PrecoHover } from '../components/styleds/Preventiva.Styled';
+import { InputsBox, Input } from '../components/styleds/Inputs.Styled';
+import { ButtonBlackBorder } from '../components/styleds/Buttons.Styled';
 import Footer from "../components/FooterComponent"
 
 import { CardHover } from '../components/styleds/Preventiva.Styled';
@@ -63,8 +72,8 @@ export default function Acessorios({acessorio}) {
                         </Card>
                 ))}
             </CardsContainer>
-            <Footer />  
         </Container>
+        <Footer />  
     </>
   )
 }

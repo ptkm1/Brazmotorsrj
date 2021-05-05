@@ -25,13 +25,14 @@ export const Footer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 70px;
 
      a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-     font-size: 17px;
-     width: 70%;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 17px;
+      width: 70%;
     }
 
     h3{
@@ -47,14 +48,20 @@ export const ItemsFooter = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   font-weight: 200;
   font-family: Arial;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 17px;
 
   ul{
     list-style: none;
+  }
+
+  a{
+    font-weight: 200;
+    font-family: Arial;
   }
 
   @media(max-width: 450px){
@@ -70,14 +77,110 @@ export const ItemsTop = styled.div`
 
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content:space-between;
   color: white;
 
   @media(max-width: 450px){
     flex-direction: column-reverse;
     justify-content: space-between;
-    align-items: left;
-    margin-left: -30%;
+    align-items: center;
+    text-align: center;
+  }
+`
+
+export const ItemsMid = styled.div`
+  width: 100%;
+  padding: 10px;
+  background: #fff;
+
+  display: flex;
+  flex-directimport styled from 'styled-components'
+
+export const Footer = styled.div`
+  width: 100%; 
+  height: max-content;
+  background-color: black;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  h3{
+      font-size: 22px;
+      margin: 5px;
+  } 
+
+  @media (max-width: 700px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+
+     a{
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 17px;
+      width: 70%;
+    }
+
+    h3{
+        font-size: 12px;
+        margin: 2px;
+    } 
+
+  }
+
+`
+
+export const ItemsFooter = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 200;
+  font-family: Arial;
+  letter-spacing: 2px;
+  font-size: 17px;
+
+  ul{
+    list-style: none;
+  }
+
+  a{
+    font-weight: 200;
+    font-family: Arial;
+  }
+
+  @media(max-width: 450px){
+    margin: 10px;
+  }
+
+`
+
+export const ItemsTop = styled.div`
+  width: 100%;
+  padding: 70px 100px;
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  color: white;
+
+  @media(max-width: 450px){
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
   }
 `
 

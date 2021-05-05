@@ -30,6 +30,38 @@ export default function FooterComponent() {
         <ItemsFooter>
           <h3><IoLocationSharp  /></h3>
           <span >
+            Av. Pref. Dulcídio Cardoso, 2900 - Barra da Tijuca, Rio de Janeiroimport React from 'react'
+import Link from 'next/link'
+
+import {  IoLocationSharp, IoMailSharp } from 'react-icons/io5'
+import { GiPhone } from 'react-icons/gi'
+
+import { FaFacebookSquare } from 'react-icons/fa'
+import { AiFillYoutube } from 'react-icons/ai'
+
+
+import {
+  Container,
+  Header,
+  FirstSection,
+  SecondSection,
+  CentralizeText,
+
+} from "./styleds/Layout.Styled";
+
+import {   Footer, ItemsBot, ItemsFooter, ItemsMid, ItemsTop} from './styleds/Footer.Styled'
+
+export default function FooterComponent() { 
+  return (
+    <Footer>
+      <ItemsTop>
+        <ItemsFooter>
+          <h3><IoMailSharp  /></h3>
+          <a href="#">brazmotorsrj@gmail.com</a>
+        </ItemsFooter>
+        <ItemsFooter>
+          <h3><IoLocationSharp  /></h3>
+          <span >
             Av. Pref. Dulcídio Cardoso, 2900 - Barra da Tijuca, Rio de Janeiro
             - RJ, 22631-052, Brasil
           </span>

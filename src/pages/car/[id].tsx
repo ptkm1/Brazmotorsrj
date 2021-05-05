@@ -66,6 +66,74 @@ export default function Car({ carro }) {
       telefone: Tel,
       celular: Cel,
       mensagem: Mensagem,
+      iimport React, { useEffect } from 'react'
+import { useRouter } from 'next/router' 
+import Head from 'next/head'
+import Link from 'next/link'
+//import Axios from './api/api'
+
+import Axios from 'axios'
+
+import MenuComponent from "../../components/MenuComponent";
+
+import { Container, Content, UpSide, DownSide, Left, Right, LeftDown } from '../../components/styleds/Car.Styled'
+
+import { InputsBox, Input, SmallInput, InputHour, TextArea } from "../../components/styleds/Inputs.Styled";
+import SimpleSlider from "../../components/Slide";
+import { ButtonBlack } from '../../components/styleds/Buttons.Styled';
+import Footer from '../../components/FooterComponent';
+import { IoCall, IoLocationSharp, IoMailSharp } from 'react-icons/io5';
+
+//Whats
+import WhatsApp from "../../components/WhatsApp";
+import { useState } from 'react'
+import { GetStaticProps, GetStaticPaths } from 'next'
+
+import SimpleSlider1 from "../../components/slide/[id]"
+
+
+
+export const getStaticPaths: GetStaticPaths  = async () => {
+    const response = await fetch(`https://teste-brazmotors.herokuapp.com/carros`)
+    const data = await response.json()
+
+    const paths = data.map((post: { _id: any }) => ({ params: { id: post._id }, }))
+
+    return { paths, fallback: true }
+}
+
+ export const getStaticProps: GetStaticProps = async (context) => {
+
+ const id:any = context.params.id
+
+   const response = await fetch(`https://teste-brazmotors.herokuapp.com/carros/${id}`)
+   const data = await response.json();
+   console.log(response)
+   return {
+     props: {
+       carro: data,
+     },
+     revalidate: 30,
+   }
+ }
+
+export default function Car({ carro }) {
+
+  const [ Nome, setNome ] = useState()
+  const [ Email, setEmail ] = useState()
+  const [ Tel, setTel ] = useState()
+  const [ Cel, setCel ] = useState()
+  const [ Hora, setHora ] = useState()
+  const [ Mensagem, setMensagem ] = useState()
+
+  async function EnviarMensagem() {
+
+    const requestData = {
+      nome: Nome,
+      email: Email,
+      telefone: Tel,
+      celular: Cel,
+      mensagem: Mensagem,
       id: carro[0]._id
     }
 

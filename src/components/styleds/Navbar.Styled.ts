@@ -45,6 +45,53 @@ export const ShowroomDrop = styled.div`
   display: none;
   flex-direction: column;
   align-items: center;
+  justify-conteimport styled from "styled-components";
+
+export const NavBar = styled.div`
+  background-color: white;
+  width: 100%;
+  height: 150px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 90px;
+  z-index: 15;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+ 
+
+  #Logo {
+    width: 370px;
+    position: fixed;
+  }
+
+  
+  @media (max-width: 1100px) {
+    #Logo {
+      left: -8px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    padding: 10px 30px;
+
+    input{
+      display: none;
+    }
+  }
+`;
+
+export const ShowroomDrop = styled.div`
+  width: 120px;
+  height: max-content;
+  background-color: white;
+  position: absolute;
+  right: 370px;
+
+  list-style: none;
+
+  display: none;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-around;
 
   a{
