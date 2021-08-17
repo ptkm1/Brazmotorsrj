@@ -5,43 +5,7 @@ export const Container = styled.div`
     height: 100%;
     background-color: #F2F3F8;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    @media (max-width: 450px) {
-        padding-top: 75px;
-    }
-`;
-
-export const Content = styled.div`
-    width: 100%;
-    margin-bottom: 100px;
-    display: flex;
-    flex-direction: column;
-
-    @media (max-width: 450px) {
-        margin-top: 0px;
-        align-items: center;
-    }
-`;
-
-export const UpSide = styled.div`
-    width: 100%;
-    margin-top: 70px;
-
-    display: flex;
-    flex-direction: row;
-
-    @media (max-width: 450px) {
-        display: flex;
-        import styled from "styled-components";
-
-export const Container = styled.div`
-    width: 100%;
-    height: 100%;
-    background-color: #F2F3F8;
+    padding-top: 80px;
 
     display: flex;
     flex-direction: column;
@@ -49,7 +13,7 @@ export const Container = styled.div`
     align-items: center;
 
     @media (max-width: 450px) {
-        padding-top: 75px;
+        padding-top: 135px;
     }
 `;
 
@@ -129,16 +93,26 @@ export const Right = styled.div`
     align-items: center;
     justify-content: flex-start;
 
+    h1{
+        font-size: 20px;
+        color: black;
+    }
+
+    p{
+        font-size: 15px;
+        color: #595858;
+        margin: 15px;
+    }
+
     @media (max-width: 450px) {
         width: 83%;
-        flex-direction: column-reverse;
-
     }
 `;
 
 export const LeftDown = styled.div`
     width: 100%;
     margin-top: 20px;
+    text-align: center;
 
     h1{
         font-size: 20px;

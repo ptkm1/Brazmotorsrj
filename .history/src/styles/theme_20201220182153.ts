@@ -1,6 +1,3 @@
-#cardHover{
-  transition: 1s;
-}
 const theme = {
   colors: {
     background: '#F2F3F8',

@@ -16,89 +16,12 @@ export const Container = styled.div`
   
   @media (max-width: 500px) {
     margin: 0 auto;
-    padding-top: 170px;
+    /* padding-top: 170px; */
   }
 
 `;
 
-export const Header = styled.div`
-  width: 100%;
-  min-height: 520px;
-  display: flex;
-  flex-direction: column;
-  padding-top: 65px;
-
-
-@media (max-width: 500px) {
-      margin: 0 auto;
-      height: 500px;
-
-      iframe {
-        height: 360px;
-        margin-bottom: 150px;
-        margin-top: 50px;
-      }
-
-`;
-
-
-export const HeroImage = styled.div`
-
-`;
-
-// MAIN PART
-export const FirstSection = styled.div`
-  width: 100%;
-  height: max-content;
-  padding: 70px 100px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  h1 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: black;
-  }
-  h2 {
-    color: #282a36;
-    border-bottom: solid #e63946 4px;
-    margin-top: 25px;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
-
-  @media(max-width: 425px){
-    padding: 40px;
-    margin-top: -200px;
-  }
-`;
-
-export const SecondSection = styled.div`
-  width: 80%;
-  height: max-content;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px;
-  align-content: center;
-  justify-items: center;
-  justify-content: center;
-  
-  @media (max-width: 700px){
-    display: flex;
-    flex-direction: column;
-  }
-  @media (max-width: 450px){
-    width: 100%;
-    align-items: center;
-  }
-`;
-
-
-export const CentralizeText = stylimport styled from "styled-components";
-
-export const Container = styled.div`
+export const Container2 = styled.div`
   width: 100%;
   
   display: flex;
@@ -134,15 +57,15 @@ export const Header = styled.div`
       iframe {
         height: 360px;
         margin-bottom: 150px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
       }
+}
 
-`;
+`
 
 
-export const HeroImage = styled.div`
 
-`;
+
 
 // MAIN PART
 export const FirstSection = styled.div`

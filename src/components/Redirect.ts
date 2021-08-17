@@ -14,22 +14,6 @@ export const Container = styled.div`
     transform: translate3d(0px, 0px, 0px);
 
     display: flex;
-    justify-conimport styled from 'styled-components';
-
-export const Container = styled.div`
-    width: 100vw;
-    height: 100vh;
-
-    background-image: linear-gradient(90deg, rgba(85, 84, 84, 0.5), rgba(44, 43, 43, 0.3)), url(assets/IMG-20210127-WA0008.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    background-size: cover;
-    background-position: center center;
-    background-image: linear-gradient(90deg, rgba(85, 84, 84, 0.5), rgba(44, 43, 43, 0.3)),url("https://i.imgur.com/7lRTGy7.jpg");
-    transform: translate3d(0px, 0px, 0px);
-
-    display: flex;
     justify-content: space-around;
     align-items: center;
     img{

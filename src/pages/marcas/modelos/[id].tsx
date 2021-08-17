@@ -25,33 +25,6 @@ export default function Carros({ carros }) {
 
       <TodosOsCarros>
 
-        {caimport React from 'react'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
-import { GetStaticPaths, GetStaticProps } from 'next'
-import { Container, CardCarro, TodosOsCarros, CardCarroHover } from '../../../components/styleds/Modelos.Styled'
-import MenuComponent from "../../../components/MenuComponent";
-import Car from '../../car/[id]'
-import { Card, CardImage, CardInfo } from '../../../components/styleds/CardComponents.Styled'
-
-export default function Carros({ carros }) {
-  console.log(carros)
-
-  const { isFallback } = useRouter()
-
-  if (isFallback) { return <h1>carregando...</h1> }
-
-  return (
-    <>
-      <MenuComponent />
-    <Container>
-         <div>
-          <h1 style={{marginTop:"100px", fontSize: '1.9rem', color: '#e63946'}} >Carros</h1>
-          <hr style={{ width: "100px", marginTop: "5px", border: "2px solid #e63946", color: '#e63946', marginBottom: "20px" }}></hr>
-        </div> 
-
-      <TodosOsCarros>
-
         {carros.map((e: any) => {
           return (
             <>
